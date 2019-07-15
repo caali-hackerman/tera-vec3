@@ -168,7 +168,7 @@ declare class Vec3 {
      * @returns number - Distance.
      */
     dist3D(v: Vec3 | { x: number, y: number, z: number } | Array<number>): number;
-    dist3D(x: number, y: number, z?: number): number;
+    dist3D(x: number, y: number, z: number): number;
 
     /**
      * Returns the squared distance between target and origin - microoptimization.
@@ -176,7 +176,7 @@ declare class Vec3 {
      * @returns number - Squared distance.
      */
     sqrDist3D(v: Vec3 | { x: number, y: number, z: number } | Array<number>): number;
-    sqrDist3D(x: number, y: number, z?: number): number;
+    sqrDist3D(x: number, y: number, z: number): number;
 
     /**
      * Returns the angle between target and origin.
@@ -184,7 +184,7 @@ declare class Vec3 {
      * @returns number - Angle in radians.
      */
     angleTo(v: Vec3 | { x: number, y: number, z: number } | Array<number>): number;
-    angleTo(x: number, y: number, z?: number): number;
+    angleTo(x: number, y: number, z: number): number;
 
     /**
      * Checks if *any* vector elements are NaN.
@@ -198,7 +198,7 @@ declare class Vec3 {
      * @returns boolean - Whether elements are identical or not.
      */
     equals(v: Vec3 | { x: number, y: number, z: number } | Array<number>): number;
-    equals(x: number, y: number, z?: number): number;
+    equals(x: number, y: number, z: number): number;
 
     /** Clones origin vector.
      * @returns Vec3 - Clone of origin.
