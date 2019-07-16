@@ -144,7 +144,7 @@ declare class Vec3 {
      * Returns the square of the length - microoptimization.
      * @returns number - Square of the length.
      */
-    sqrtLength(): number;
+    sqrLength(): number;
 
     /**
      * Returns the distance between target and origin.
