@@ -2,7 +2,7 @@
 // Project: Tera Toolbox
 // Definitions by: Topiary <https://github.com/MarcMarabou>
 
-export = Vec3;
+export default Vec3;
 
 declare class Vec3 {
     constructor(p: { x: number, y: number, z: number } | Array<number>);
